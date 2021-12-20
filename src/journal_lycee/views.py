@@ -6,3 +6,6 @@ def index(request):
 
 def mainmenu(request):
     return HttpResponse("<h1>test<h1>")
+
+def mainmenu(request):
+    return HttpResponse("<h1>grostest<h1>")
