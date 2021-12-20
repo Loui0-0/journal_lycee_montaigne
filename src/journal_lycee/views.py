@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("lorem isszpfihdiuofvgqhgsrguijqdsrmiogk")
+    return HttpResponse("Hello Test 123 123 - Alex")
 
 def mainmenu(request):
     return HttpResponse("<h1>test<h1>")
