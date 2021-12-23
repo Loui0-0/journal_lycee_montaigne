@@ -100,7 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+MEDIA_ROOT = 'MEDIA_ROOT/'
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
