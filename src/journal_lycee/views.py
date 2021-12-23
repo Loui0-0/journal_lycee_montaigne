@@ -1,11 +1,9 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("Hello Test 123 123 - Alex")
+    return render(request,'index.html',{})
 
 def mainmenu(request):
-    return HttpResponse("<h1>test<h1>")
-
-def mainmenu(request):
-    return HttpResponse("<h1>grostest<h1>")
+    return HttpResponse('<embed src="http://exo7.emath.fr/ficpdf/ficall.pdf" width="500" height="375">')
+#http://exo7.emath.fr/ficpdf/ficall.pdf
